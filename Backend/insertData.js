@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Mail = require('./models/mailModel'); // Adjust the path as necessary
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://raju:rajujune@cluster0.nhpth.mongodb.net/mailsDB', {
+mongoose.connect('YourMongoDBConnectionString', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
