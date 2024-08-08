@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://raju:rajujune@cluster0.nhpth.mongodb.net/mailsDB', {
+mongoose.connect('YourMongoDBConnectionString', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
